@@ -1,0 +1,29 @@
+{
+  "name": "pod-forward",
+  "version": "1.0.0",
+  "description": "Interactive k8s pod port-forwarder CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://tfs.n-ware.hu/tfs/DefaultCollection/nCode/_git/pod-forwarder"
+  },
+  "author": "Daniel Varsanyi",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "inquirer": "^6.4.1",
+    "shelljs": "^0.8.3"
+  },
+  "keywords": [
+    "kubernetes",
+    "port-forward",
+    "cli"
+  ],
+  "bin": {
+    "pod-forwarder": "./index.js"
+  }
+}
